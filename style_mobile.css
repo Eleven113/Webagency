@@ -1,0 +1,303 @@
+body
+{
+    margin: auto;
+    font-size: 2vw;
+}
+
+section
+{
+    height: 1000px;
+}
+
+#portfolio
+{
+    height: 2000px;
+}
+
+#accueil:target , #services:target , #portfolio:target  , #contact:target 
+{
+    padding-top: 15em; 
+    margin-top: -15em; 
+}
+
+.menu_position
+{
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo_img
+{
+    width:100%;
+}
+
+.white{
+    color: #000000;
+}
+
+ul
+{
+    width: 100%;
+    padding-inline-start: 0px;
+}
+
+nav
+{
+    width:100%;
+}
+
+.topmenu
+{
+    height: 115px;
+}
+
+.logo {
+    margin-top: 10px;
+}
+
+li.menu
+{
+    
+    width: 20%;
+    line-height: 20px;
+    margin-left: 3%;
+    margin-right:3%;
+    font-size: 2vh;
+}
+
+nav li:hover
+{
+	border-top: 2px solid #FFFFFF;
+}
+
+nav li:active
+{
+    background-color: #5CADD3;
+    border-top: 2px solid #5CADD3;
+}
+
+.slider_button
+{
+    display: none;
+}
+
+.slider
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slider_img
+{
+    margin-top: 190px;
+}
+
+.slider_container
+{
+    width:90%;
+    top:100%;
+    left:10%;
+}
+
+.whitecircle {
+    top: -5px;
+    left: 50%;
+}
+
+.bluecircle {
+    top: -4px;
+    left: 51%;
+}
+
+.service_header, .portfolio_header {
+    width: 80%;
+}
+
+.service_container {
+    flex-flow: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.service_container-left {
+    width: 50%;
+    margin-left: 0px;
+}
+
+.service_container-right {
+    width: 80%;
+    margin-top: 0px;
+}
+
+.service_item{
+    flex-flow:column;
+    height:auto;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+iframe , .overlay
+{
+    display: none;
+}
+
+.smallfont
+{
+    font-size: 1.2em;
+}
+
+.service_item-ico
+{
+	font-size: 15px;
+	color: #5CADD3 ;
+    min-width: 30px ;
+    min-height: 30px;
+    max-width: 30px ;
+    max-height: 30px;
+    text-align: center ;
+    border: 1px solid #E5E5E5;
+    border-radius: 75px;
+    display : flex;
+    justify-content: center;
+    position: relative;
+}
+
+.service_item-ico--font
+{
+	margin: auto;
+	padding-left: 0px;
+}
+
+.service_item-whitecircle {
+    position: absolute;
+    top: 10px;
+    left: 28px;
+    font-size: 0.6em;
+}
+
+.service_item-bluecircle {
+    left: 29px;
+    position: absolute;
+    top: 12px;
+    font-size: 0.35em;
+}
+
+.portfolio_header-menu--left
+{
+	font-family: roboto-bold ;
+    font-size: 2em;
+	color : #65696E ;
+	background-color: #E5E5E5;
+	width: 25%; 
+	height: 35px; 
+	text-align: center;
+	border-bottom-left-radius: 4px;
+	border-bottom: 3px solid #E5E5E5;
+	margin : 0;
+}
+
+.portfolio_header-menu--middle
+{
+    font-family: roboto-bold ;
+    font-size: 2em;
+	color : #65696E ;
+	background-color: #E5E5E5;
+	width: 25%; 
+	height: 35px; 
+	text-align: center; 
+	border-bottom: 3px solid #E5E5E5;
+	margin : 0;
+}
+
+.portfolio_header-menu--right
+{
+	font-family: roboto-bold ;
+    font-size: 2em;
+	color : #65696E ;
+	background-color: #E5E5E5;
+	width: 25%; 
+	height: 35px; 
+	text-align: center; 
+	border-bottom-right-radius: 3px ;
+	border-bottom: 3px solid #E5E5E5;
+	margin : 0; 
+}
+
+.porfolio_header-menu--arrow {
+    position: absolute;
+    top: 21px;
+    left: 39%;
+    color: #4494BB;
+    font-size: 28px;
+    opacity: 0;
+}
+
+.portfolio_header-menu--left:active , .portfolio_header-menu--middle:active  , .portfolio_header-menu--right:active 
+{
+	background-color: #5CADD3;
+	border-bottom: 3px solid #4494BB;
+	color: #FFFFFF;
+}
+
+.portfolio_header-menu--left:active  .porfolio_header-menu--arrow, .portfolio_header-menu--middle:active  .porfolio_header-menu--arrow, .portfolio_header-menu--right:active .porfolio_header-menu--arrow
+{
+    opacity: 1
+}
+
+.project{
+    margin-top:30px;
+}
+
+.project_item{
+    padding:0px;
+    margin-bottom: 10px;
+    position: relative;
+    height: 171px;
+}
+
+.project_item-description{
+    width: 95%;
+    padding:0px;
+    padding-left: 5%;
+}
+
+.project_item-opacity{
+    opacity:1;
+    height: 100%;
+    position:absolute;
+    top:0px;
+    left:0px;
+    width: 100%;
+}
+
+.eye{
+    display: none;
+}
+
+.contact_container-element{
+    display: flex;
+    justify-content: center;
+}
+
+.contact_form
+{
+    border: 1px solid #000000;
+    top: 40px;
+    right: inherit;
+    background-color: #E5E5E5;
+    height: 320px;
+}
+
+.img_size{
+    position: absolute;
+    top:0px;
+    width: 100%;
+    height: 97%;
+}
+
+.bigfontmobile
+{
+    font-size: 2em;
+}
