@@ -6,12 +6,12 @@ body
 
 section
 {
-    height: 1000px;
+    height: 800px;
 }
 
 #portfolio
 {
-    height: 2000px;
+    height: 1700px;
 }
 
 #accueil:target , #services:target , #portfolio:target  , #contact:target 
