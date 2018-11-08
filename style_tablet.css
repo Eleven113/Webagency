@@ -326,4 +326,9 @@ iframe
     font-size: 1.1em;
 }
 
+#accueil:target , #services:target , #portfolio:target  , #contact:target 
+{
+    padding-top: 3em; 
+    margin-top: -3em; 
+}
 
