@@ -55,7 +55,7 @@ body
 {
 	background-color : #FFFFFF ;
 	font-family: 'Roboto' ;
-	font-size: 1.6vw;
+	font-size: 1.4vw;
 	overflow-x: hidden;
 }
 
@@ -588,7 +588,8 @@ iframe
 .contact_form
 {
 	width: 270px;
-    height: 500px;
+    height: 340px;
+    line-height: 20px;
 	background-color: rgba(255, 255, 255,0.8) ;
 	border: 0px solid #282828;	
 	position: absolute;
@@ -631,4 +632,9 @@ iframe
 
 #contact{
     margin-top: 10px;
+}
+
+textarea
+{
+    margin-top:3px;
 }
