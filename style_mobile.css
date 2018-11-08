@@ -101,6 +101,11 @@ nav li:active
     left:10%;
 }
 
+h5
+{
+    font-size: 2em;
+}
+
 .whitecircle {
     top: -5px;
     left: 50%;
