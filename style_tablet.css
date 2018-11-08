@@ -57,11 +57,12 @@ li.menu
     line-height: 50px;
     width : 25%;
     border :2px solid rgba(255, 255, 255, 0);
+    font-size: 17px;
 }
 
 li
 {
-    margin-right: 30px;
+    margin-right: 0px;
     border : 0px solid red ;
 }
 
