@@ -32,7 +32,7 @@ section
 }
 
 .white{
-    color: #000000;
+    color: #FFFFFF;
 }
 
 ul
@@ -54,6 +54,7 @@ nav
 
 .logo {
     margin-top: 10px;
+    width: 100%;
 }
 
 li.menu
@@ -63,7 +64,7 @@ li.menu
     line-height: 20px;
     margin-left: 3%;
     margin-right:3%;
-    font-size: 2vh;
+    font-size: 5vw;
 }
 
 nav li:hover
@@ -75,6 +76,13 @@ nav li:active
 {
     background-color: #5CADD3;
     border-top: 2px solid #5CADD3;
+}
+
+
+.logo_img
+{
+    display: block;
+    max-width:100%;
 }
 
 .slider_button
@@ -96,9 +104,14 @@ nav li:active
 
 .slider_container
 {
-    width:90%;
-    top:100%;
-    left:10%;
+    width:97%;
+    top:68%;
+    left:3%;
+}
+
+.slider_bluebutton
+{
+    display: none;
 }
 
 h5
