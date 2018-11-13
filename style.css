@@ -251,7 +251,7 @@ h1
 .slider_button-left
 {
 	color : #FFFFFF;
-	font-size: 2em;
+	font-size: 32px;
 	height: 70px;
     width: 35px;  
  	background : rgba(0,0,0,0.5);
@@ -261,9 +261,8 @@ h1
 
 .slider_button-right
 {
-	font-size: 3em;
+	font-size: 32px;
 	color : #FFFFFF;
-	font-size: 2em;
 	height: 70px;
     width: 35px;  
  	background : rgba(0,0,0,0.5);
@@ -480,7 +479,7 @@ h1
 {
 	position : absolute;
 	width : 96%;
-	height : 48px;
+	height : 60px;
 	bottom : 5px;
 	right : 0px;
 	background : rgba(0,0,0, 0.5);
@@ -510,7 +509,7 @@ h1
     border: 1px solid #FFFFFF;
     border-radius : 90px;
     position : absolute;
-    bottom : 36px;
+    bottom : 48px;
     left : 202px;
     z-index: 2;
 }
@@ -543,6 +542,7 @@ div.project_item-opacity:hover
 	position:absolute;
 	top: -9px;
     left: 37px;
+    font-size: 17px;
 	
 }
 
@@ -552,7 +552,7 @@ div.project_item-opacity:hover
 	position:absolute;
 	top: -6px;
     left: 39px;
-	font-size: 0.70em;
+	font-size: 12px;
 }
 
 .contact_container
