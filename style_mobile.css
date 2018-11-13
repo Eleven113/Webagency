@@ -321,3 +321,8 @@ iframe , .overlay
 {
     font-size: 2em;
 }
+
+.browserstack
+{
+    top: 40px;
+}
