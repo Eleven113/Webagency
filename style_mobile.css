@@ -6,7 +6,12 @@ body
 
 section
 {
-    height: 800px;
+    height: 590px;
+}
+
+#accueil
+{
+    height: 500px;
 }
 
 #portfolio
