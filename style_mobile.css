@@ -34,6 +34,7 @@ section
 .logo_img
 {
     width:100%;
+    display: block;
 }
 
 .white{
@@ -43,8 +44,6 @@ section
 ul
 {
     width: 100%;
-    padding-inline-start: 0px;
-    -webkit-padding-start: 0px;
 }
 
 nav
@@ -81,13 +80,6 @@ nav li:active
 {
     background-color: #5CADD3;
     border-top: 2px solid #5CADD3;
-}
-
-
-.logo_img
-{
-    display: block;
-    max-width:100%;
 }
 
 .slider_button
