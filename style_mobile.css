@@ -6,18 +6,15 @@ body
 
 section
 {
-    height: 590px;
-}
-
-#accueil
-{
-    height: 380px;
+    height: auto;
+    margin-bottom: 35px;
 }
 
 #portfolio
 {
-    height: 1700px;
+    height: 1665px;
 }
+
 
 #accueil:target , #services:target , #portfolio:target  , #contact:target 
 {
@@ -161,17 +158,17 @@ iframe , .overlay
 
 .smallfont
 {
-    font-size: 1.2em;
+    font-size: 1.9em;
 }
 
 .service_item-ico
 {
-	font-size: 15px;
+	font-size: 25px;
 	color: #5CADD3 ;
-    min-width: 30px ;
-    min-height: 30px;
-    max-width: 30px ;
-    max-height: 30px;
+    min-width: 50px ;
+    min-height: 50px;
+    max-width: 50px ;
+    max-height: 50px;
     text-align: center ;
     border: 1px solid #E5E5E5;
     border-radius: 75px;
@@ -188,16 +185,16 @@ iframe , .overlay
 
 .service_item-whitecircle {
     position: absolute;
-    top: 10px;
-    left: 28px;
-    font-size: 0.6em;
+    top: 15px;
+    left: 39px;
+    font-size: 0.7em;
 }
 
 .service_item-bluecircle {
-    left: 29px;
+    left: 45px;
     position: absolute;
-    top: 12px;
-    font-size: 0.35em;
+    top: 18px;
+    font-size: 0.4em;
 }
 
 .portfolio_header-menu--left
@@ -322,4 +319,13 @@ iframe , .overlay
 .browserstack
 {
     top: 40px;
+}
+
+h4
+{
+    font-size: 2em;
+}
+
+.smallpx {
+    font-size: 15px;
 }
